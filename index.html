@@ -10,20 +10,68 @@
     <div class="dashboard">
         <nav class="sidebar">
             <h2 class="sidebar__title">WeHR</h2>
-            <ul class="sidebar__menu">
-                <li class="sidebar__menu-item sidebar__menu-item--active">Dashboard</li>
-                <li class="sidebar__menu-item">Recruitment</li>
-                <li class="sidebar__menu-item">Schedule</li>
-                <li class="sidebar__menu-item">Employee</li>
-                <li class="sidebar__menu-item">Department</li>
-                <li class="sidebar__menu-item">Support</li>
-                <li class="sidebar__menu-item">Settings</li>
+            <ul class="sidebar__menu">MAIN MENU
+                <li class="sidebar__menu-item sidebar__menu-item--active">
+                    <img src="./img/ic_dashboard.png" alt="Dashboard icon" class="icdashboard">
+                    <div class="sidebar__menu-item-name">
+                        Dashboard
+                    </div>
+                    </li>
+                <li class="sidebar__menu-item">
+                    <img src="./img/ic_recruitment.png" alt="Dashboard Recruitment" class="ic_recruiment">
+                    <div class="sidebar__menu-item-name">
+                        Recruitment
+                    </div>
+                    </li>
+                <li class="sidebar__menu-item">
+                    <img src="./img/ic_calendar.png" alt="Dashboard Schedule" class="ic_shedule">
+                    <div class="sidebar__menu-item-name">
+                        Schedule
+                    </div>
+                </li>
+                <li class="sidebar__menu-item">
+                    <img src="./img/ic_employee.png" alt="Dashboard Employee" class="ic_employee">
+                    <div class="sidebar__menu-item-name">
+                        Employee
+                    </div>
+                    </li>
+                <li class="sidebar__menu-item">
+                    <img src="./img/ic_department.png" alt="Dashboard Department" class="ic_department">
+                    <div class="sidebar__menu-item-name">
+                        Department
+                    </div>
+                    </li>
+            </ul>
+            <ul class="sidebar__other">OTHER
+                <li class="sidebar__menu-item">
+                    <img src="./img/ic_support.png" alt="Dashboard Support" class="ic_support">
+                    <div class="sidebar__menu-item-name">
+                        Support
+                    </div>
+                    </li>
+                <li class="sidebar__menu-item">
+                    <img src="./img/ic_settings.png" alt="Dashboard Settings" class="ic_setting">
+                    <div class="sidebar__menu-item-name">
+                        Settings
+                    </div>
+                    </li>
             </ul>
         </nav>
             <main class="main-content">
                 <header class="header">
-                    <input type="search" class="header__search" placeholder="Search">
-                    <div class="header__user-info">Admirra John</div>
+                    <div class="search__module">
+                        <img src="./img/ic_burgermenu.png" alt="Burger menu" class="burger_menu" width="24px" height="24px">
+                        <input type="search" class="header__search" placeholder="Search">
+                    </div>
+                    <div class="header__user">
+                        <img src="./img/ic_round-notifications.png" alt="Header noti" class="ic_noti">
+                        <img src="./img/bi_chat-left-dots-fill.png" alt="Header message" class="ic_message">
+                        <div class="header__user-info">
+                            <img src="/img/Mask Group.png" alt="Header Avatar" class="ic_avatar">
+                            <div class="header__user-info">Admirra John</div>
+                            <img src="./img/Frame 10.png" alt="" class="user-infor__arrow">
+                        </div>
+                    </div>
                 </header>
                 <div class="name">Dashboard</div>
                 <section class="content">
@@ -47,43 +95,129 @@
                                 </div>
                             </div>
                             <div class="stats">
-                                <div class="stat1 stat--round">
-                                    <h3 class="stat__title">Total Employees</h3>
-                                    <p class="stat__count">216</p>
-                                    <span class="stat__note">120 Men<br> 96 Women</span>
+                                <div class="stat stat--round">
+                                    <div class="stat__content">
+                                        <h3 class="stat__title">Total Employees</h3>
+                                        <p class="stat__count">216</p>
+                                        <span class="stat__note">120 Men<br> 96 Women</span>
+                                    </div>
+                                    <img src="./img/Frame 52.png" alt="" class="chart">
                                 </div>
-                                <div class="stat2 stat--round">
-                                    <h3 class="stat__title">Talent Request</h3>
-                                    <p class="stat__count">16</p>
-                                    <span class="stat__note">6 Men <br>10 Women</span>
+                                <div class="stat stat--round">
+                                    <div class="stat__content">
+                                        <h3 class="stat__title">Talent Request</h3>
+                                        <p class="stat__count">16</p>
+                                        <span class="stat__note">6 Men <br>10 Women</span>
+                                    </div>
+                                    <img src="./img/Frame 52.png" alt="" class="chart">
                                 </div>
                             </div>
                             <div class="announcements announcements--round">
-                                <h3 class="announcements__title">Announcement</h3>
-                                <ul class="announcements__list">
-                                    <li class="announcements__item">Outing schedule for every department</li>
-                                    <li class="announcements__item">Meeting HR Department</li>
-                                    <li class="announcements__item">IT Department need two more talents for UX/UI Designer position</li>
-                                </ul>
+                                <div class="announcements__above">
+                                    <div class="announcements__title">
+                                        <div><h3 class="announcements__title-name">Announcement</h3></div>
+                                        <div class="announcements__title-date">Today, 13 Sep 2021</div>
+                                    </div>
+                                    <ul class="announcements__list">
+                                        <li class="announcements__item">
+                                            <div class="item__content">
+                                                <p class="line1">Outing schedule for every department</p>
+                                                <p class="line2">5 minutes ago</p>
+                                            </div>
+                                            <div class="img_ic">
+                                                <img src="./img/bi_pin-angle-fill.png" alt="Pin icon" class="ic_pin" width="24px" height="24px">
+                                                <img src="./img/carbon_overflow-menu-horizontal.png" alt="menu dot" class="ic_dot" width="24px" height="24px">
+                                            </div>
+                                        </li>
+                                        <li class="announcements__item">
+                                            <div class="item__content">
+                                                <p class="line1">Meeting HR Department</p>
+                                                <p class="line2">Yesterday, 12:30 PM</p>
+                                            </div>
+                                            <div class="img_ic">
+                                                <img src="./img/bi_pin-angle-fill.png" alt="Pin icon" class="ic_pin" width="24px" height="24px">
+                                                <img src="./img/carbon_overflow-menu-horizontal.png" alt="menu dot" class="ic_dot" width="24px" height="24px">
+                                            </div>
+                                        </li>
+                                        <li class="announcements__item">
+                                            <div class="item__content">
+                                                <p class="line1">IT Department need two more talents for UX/UI
+                                                    <br>Designer position</p>
+                                                <p class="line2">Yesterday, 09:15 AM</p>
+                                            </div>
+                                            <div class="img_ic">
+                                                <img src="./img/bi_pin-angle-fill.png" alt="Pin icon" class="ic_pin" width="24px" height="24px">
+                                                <img src="./img/carbon_overflow-menu-horizontal.png" alt="menu dot" class="ic_dot" width="24px" height="24px">
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="announcement__footer">
+                                    <div>See All Announcement</div>
+                                </div>
+                            </div>
                         </div>
                         </div>
                         <div class="wrapperRight">
                             <aside class="recent-activity">
                                  <h3 class="recent-activity__title">Recently Activity</h3>
                                  <div class="recentContent">
-                                    <p class="recent-activity__dayTime">10.04AM, Fri 10 Sept 2021</p>
-                                    <p class="recent-activity__text">You Posted a New Job</p>
-                                    <p class="recent-activity__note">Kindly check the requirements and terms of work and make sure everything is right.</p>
-                                    <p class="recent-activity__count">Today you made 12 Activities</p>
+                                    <div class="recent__above">
+                                        <p class="recent-activity__dayTime">10.04AM, Fri 10 Sept 2021</p>
+                                        <p class="recent-activity__text">You Posted a New Job</p>
+                                        <p class="recent-activity__note">Kindly check the requirements and terms of work and
+                                            <br>make sure everything is right.</p>
+                                    </div>
+                                    <div class="recent__footer">
+                                        <p class="recent-activity__count">Today you made 12 Activities</p>
+                                        <button class="seeAll">See All Activity</button>
+                                    </div>
                                  </div>
                              </aside>
                                  <section class="schedule">
-                                    <h3 class="schedule__title">Upcoming Schedule</h3>
+                                    <div class="schedule__above">
+                                        <div class="schedule__header">
+                                            <h3 class="schedule__title">Upcoming Schedule</h3>
+                                            <div class="schedule__title-date">Today, 13 Sep 2021</div>
+                                        </div>
                                         <ul class="schedule__list">
-                                            <li class="schedule__item">Review candidate applications</li>
-                                             <li class="schedule__item">Interview with candidates</li>
-                                            <li class="schedule__item">Short meeting with product designer from IT Department</li>
+                                            <div class="schedule__list-priority">Priority
+                                                <li class="schedule__item">
+                                                    <div class="schedule__item-content">
+                                                        <p class="line1">Review candidate applications</p>
+                                                        <p class="line2">Today - 11:30 AM</p>
+                                                    </div>
+                                                    <div class="schedule__img_ic">
+                                                        <img src="./img/carbon_overflow-menu-horizontal.png" alt="menu dot" class="ic_dot" width="24px" height="24px">
+                                                    </div>
+                                                </li>
+                                            </div>
+                                            <div class="schedule__list-other">other
+                                                <li class="schedule__item">
+                                                    <div class="schedule__item-content">
+                                                        <p class="line1">Interview with candidates</p>
+                                                        <p class="line2">Today - 10:30 AM</p>
+                                                    </div>
+                                                    <div class="schedule__img_ic">
+                                                        <img src="./img/carbon_overflow-menu-horizontal.png" alt="menu dot" class="ic_dot" width="24px" height="24px">
+                                                    </div>
+                                                </li>
+                                                <li class="schedule__item">
+                                                    <div class="schedule__item-content">
+                                                        <p class="line1">Short meeting with product designer
+                                                            <br>from IT Department</p>
+                                                        <p class="line2">Today - 09:15 AM</p>
+                                                    </div>
+                                                    <div class="schedule__img_ic">
+                                                        <img src="./img/carbon_overflow-menu-horizontal.png" alt="menu dot" class="ic_dot" width="24px" height="24px">
+                                                    </div>
+                                                </li>
+                                            </div>
                                         </ul>
+                                    </div>
+                                    <div class="schedule__footer">
+                                        Create a New Schedule
+                                    </div>
                             </section>
                         </div>
                     </div>
