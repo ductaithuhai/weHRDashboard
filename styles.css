@@ -701,11 +701,6 @@ br {
         background-color: #161e54;
     }
 
-    .recent-activity__count,
-    .seeAll{
-      height: ;
-    }
-
     .recent__footer{
         height: 30%;
         display: flex;
@@ -791,15 +786,15 @@ br {
         margin-bottom: 0.5rem;
     }
 
-    .schedule__item:last-child{
+    .schedule__item2:last-child{
         display: none;
     }
 
     .line1{
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
     .line2{
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
     .schedule__footer{
         display: flex;
