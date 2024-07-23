@@ -9,7 +9,8 @@
     border-width: thin;
 }
 
-.burger_menu{
+.burger_menu,
+.ic_search{
     display: none;
 }
 
@@ -25,6 +26,9 @@
     height: 4.4rem;
     border-radius: 0.5rem;
     border-color: var(--border);
+    background-image: url("../img/Frame9.png");
+    background-repeat: no-repeat;
+    background-position: 95%;
 }
 
 ::placeholder{
