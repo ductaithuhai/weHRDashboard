@@ -1,0 +1,225 @@
+@media (max-width: 1024px) {
+
+    html{
+        width: auto;
+        display: flex;
+    }
+
+    body{
+        height: auto;
+    }
+
+    .main-content{
+        max-width: 74.4rem;
+        height: 100%;
+    }
+    .sidebar{
+        max-width: 9rem;
+        padding: 1rem 1rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sidebar__menu ,
+    .sidebar__other{
+        padding: 1rem 1rem;
+        align-items: center;
+    }
+
+    .sidebar__title {
+        width: 100%;
+        font-size: 2.0rem;
+    }
+
+    .sidebar__menu-item-name{
+        display: none;
+    }
+
+    .header{
+        max-width: 74.4rem;
+    }
+
+    .header__search{
+        width: 24.5rem;
+        height: 3.6rem;
+        border-radius: 0.5rem;
+        border-color: var(--border);
+    }
+
+    .search__module{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    .ic_search{
+        display: none;
+    }
+    .burger_menu{
+        display: block;
+    }
+
+    .dashboard{
+        max-width: 83.4rem;
+    }
+
+    .wrapper{
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap:3rem;
+    }
+
+
+    .wrapper__left{
+        max-width: 64rem;
+    }
+
+    .card1{
+        background-color: #FFEFE7;
+    }
+    
+    .card2{
+        background-color: #E8F0FB;
+    }
+    
+    .card3{
+        background-color: #FDEBF9;
+    }
+    
+    .card__title {
+        font-size: 1.8rem;
+        color: var(--ter);
+        margin-bottom: 1rem ;
+    }
+    
+    .card__count {
+        font-size: 3.6rem;
+        color: var(--ter);
+        margin-bottom: 1rem;
+    }
+    
+    .card__note1  {
+        font-size: 1.4rem;
+        color: var(--main-Color);
+    }
+    
+    .card__note2  {
+        font-size: 1.4rem;
+        color: #3786F1;
+    }
+    
+    .card__note3  {
+        font-size: 1.4rem;
+        color: #EE61CF;
+    }
+    .wrapper__right{
+        width: 64rem;
+        height: 31.9rem;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    .recent-activity {
+        width: 25rem;
+        height: 31.9rem;
+    }
+
+    .recent-activity__title {
+        height: 5.6rem;
+        font-size: 1.8rem;
+        text-align: left;
+        color: #fff;
+        padding: 0 3rem;
+        background-color: #1b204a;
+        line-height: 4.8rem;
+        border-radius: 1rem 1rem 0px 0px;
+    }
+    
+    .recentContent {
+        height: 26.3rem;
+        text-align: left;
+        color: #fff;
+        background-color: #161e54;
+        border-radius: 0px 0px 1rem 1rem;
+    }
+    .recent-activity__note,
+    .recent-activity__text,
+    .recent-activity__dayTime {
+    color: #fff;
+    padding: 1rem 2rem;
+}
+    .recent__above{
+        height: 18rem;
+    }
+
+    .recent-activity__dayTime{
+        font-size: 1rem;
+    }
+    
+    .recent-activity__text{
+        font-size: 1.6rem;
+    }
+    
+    .recent-activity__note{
+        font-size: 1.4rem;
+    }
+    
+    .recent-activity__count{
+        font-size: 1.4rem;
+        padding: 0 2rem;
+    }
+
+    .recent__footer{
+        height: 7.7rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .schedule {
+        height: 31.9rem;
+        width: 37.4rem;
+        margin: 0;
+    }
+
+    .schedule__item2:last-child{
+        display: none;
+    }
+
+    .schedule__list {
+        display: flex;
+        flex-direction: column;
+        gap:2rem;
+    }
+
+    .schedule__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fafafa;
+        border: #e0e0e0;
+        border-style: solid;
+        border-width: thin;
+        border-radius: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .schedule__above{
+        height: 28rem;
+        padding: 0px 2rem;
+    }
+    
+    .schedule__footer{
+        display: flex;
+        height: 3.9rem;
+        font-size: 1.4rem;
+        justify-content: center;
+        align-items: center;
+        border-top: #e0e0e0;
+        border-style: solid none none none ;
+        border-width: thin;
+        color: #ff5151;
+    }
+
+}

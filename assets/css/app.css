@@ -1,0 +1,11 @@
+@import "./reset.css";
+@import "./variable.css";
+@import "./global.css";
+@import "./header.css";
+@import "./main.css";
+@import "./sidebar.css";
+@import "./content.css";
+@import "./wrapperLeft.css";
+@import "./wrapperRight.css";
+@import "./responsiveTablet.css";
+@import "./responsivePhone.css";

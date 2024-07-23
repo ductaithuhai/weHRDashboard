@@ -1,0 +1,17 @@
+:root{
+    --primary:#303030;
+    --primary-Sub:#686868;
+    --main-Color:#ff5151;
+    --second-Color:#ff9b6a;
+    --ter-Color:#161e54;
+    --background:#fafafa;
+    --border:#e0e0e0;
+    --white:#ffffff;
+    --black:#000000;
+    --pc-width:1098px;
+    --pc-height:91px;
+    --tablet-with:640px;
+    --tablet-height:62px;
+    --phone-width:350px;
+    --phone-height:60px;
+}

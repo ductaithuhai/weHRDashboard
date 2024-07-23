@@ -1,0 +1,316 @@
+@media (max-width: 600px) {
+
+    html{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    body{
+        max-width: 390px;
+        align-items: center;
+    }
+    .main-content{
+        max-width: 39rem;
+        height: 205.2rem;
+        padding: 0;
+    }
+
+    .content{
+        max-width: 43rem;
+        height: 205.2rem;
+    }
+
+    .sidebar{
+        display: none;
+    }
+
+    .header{
+        max-width: 35rem;
+        height: 6rem;
+    }
+
+    .header__user-info{
+        display: none;
+    }
+
+    .header__search{
+        display: none;
+        width: 24.5rem;
+        height: 3.6rem;
+        border-radius: 0.5rem;
+        border-color: var(--border);
+    }
+    .search__module{
+        display: flex;
+        gap: 1rem;
+    }
+    .burger_menu,
+    .ic_search{
+        display: block;
+    }
+
+    .dashboard{
+        max-width: 35rem;
+        height: 205.2rem;
+    }
+
+    .wrapper{
+        width: 35rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap:1rem;
+        margin: 0;
+    }
+
+
+    .wrapper__left{
+        height: 120rem;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 35rem;
+    }
+
+    .cards {
+        width:35rem;
+        height: 44rem;
+        display: flex;
+        flex-direction: column;
+        gap:1rem;
+        margin: 0 0 1rem 0;;
+    }
+
+    .card {
+        width: 35rem;
+        height: 14rem;
+        flex: 1;
+        padding: 2rem;
+        background-color: #fff;
+        border-radius: 1rem;
+        box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+        text-align: left;
+    }
+
+    .card1{
+        background-color: #FFEFE7;
+    }
+    
+    .card2{
+        background-color: #E8F0FB;
+    }
+    
+    .card3{
+        background-color: #FDEBF9;
+    }
+    
+    .card__title {
+        font-size: 1.8rem;
+        color: var(--ter);
+        margin-bottom: 1rem ;
+    }
+    
+    .card__count {
+        font-size: 3.6rem;
+        color: var(--ter);
+        margin-bottom: 1rem;
+    }
+    
+    .card__note1  {
+        font-size: 1.4rem;
+        color: var(--main-Color);
+    }
+    
+    .card__note2  {
+        font-size: 1.4rem;
+        color: #3786F1;
+    }
+    
+    .card__note3  {
+        font-size: 1.4rem;
+        color: #EE61CF;
+    }
+
+
+    .stats {
+        width:35rem;
+        height: 40rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .stat {
+        width: 35rem;
+        flex: 1;
+        padding: 2rem;
+        background-color: #fff;
+        border-radius: 1rem;
+        box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #fff;
+        text-align: left;
+    }
+
+    .announcements{
+        height: 33.9rem;
+        max-width: 35rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .announcements__title-date{
+        width: 12.5rem;
+        font-size: 1rem;
+    }
+
+    .announcements__list {
+        max-width: 35rem;
+        align-items: center;
+    }
+
+    .announcements__item {
+        width:31rem;                                                                                        
+    }
+    
+    .announcements__list {
+        height: 24rem;
+        width: 35rem;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding: 0;
+    }
+
+    .line1{
+        font-size: 1.4rem;
+        color: #303030;
+        padding: 1rem 0 1rem 0;
+    }
+    .announcement__footer{
+        width: 35rem;
+        color: #ff5151;
+        height: 3.9rem;
+    }
+
+    .wrapper__right{
+        width: 35rem;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    .recent-activity {
+        width: 35rem;
+        height: 31.9rem;
+    }
+
+    .recent-activity__title {
+        height: 5.6rem;
+        font-size: 1.8rem;
+        text-align: left;
+        color: #fff;
+        padding: 0 3rem;
+        background-color: #1b204a;
+        line-height: 4.8rem;
+        border-radius: 1rem 1rem 0px 0px;
+    }
+    
+    .recentContent {
+        height: 26.3rem;
+        text-align: left;
+        color: #fff;
+        background-color: #161e54;
+        border-radius: 0px 0px 1rem 1rem;
+    }
+    .recent-activity__note,
+    .recent-activity__text,
+    .recent-activity__dayTime {
+    color: #fff;
+    padding: 1rem 2rem;
+}
+    .recent__above{
+        height: 18rem;
+    }
+
+    .recent-activity__dayTime{
+        font-size: 1rem;
+    }
+    
+    .recent-activity__text{
+        font-size: 1.6rem;
+    }
+    
+    .recent-activity__note{
+        font-size: 1.4rem;
+    }
+    
+    .recent-activity__count{
+        font-size: 1.4rem;
+        padding: 0 2rem;
+    }
+
+    .recent__footer{
+        height: 7.7rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .schedule {
+        height: 31.9rem;
+        width: 35rem;
+        margin: 0;
+    }
+
+    .schedule__title-date{
+        width: 12.5rem;
+        font-size: 1rem;
+    }
+
+    .schedule__item2:last-child{
+        display: none;
+    }
+
+    .schedule__list {
+        display: flex;
+        flex-direction: column;
+        gap:2rem;
+    }
+
+    .schedule__item {
+        width: 31rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fafafa;
+        border: #e0e0e0;
+        border-style: solid;
+        border-width: thin;
+        border-radius: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .schedule__above{
+        height: 28rem;
+        padding: 0px 2rem;
+    }
+    
+    .schedule__footer{
+        display: flex;
+        height: 3.9rem;
+        font-size: 1.4rem;
+        justify-content: center;
+        align-items: center;
+        border-top: #e0e0e0;
+        border-style: solid none none none ;
+        border-width: thin;
+        color: #ff5151;
+    }
+
+}

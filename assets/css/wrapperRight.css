@@ -1,0 +1,193 @@
+.wrapper__right{
+    width: 42.7rem;
+    height: 66.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.recent-activity {
+    height: 25.8rem;
+    width: 100%;
+}
+
+.recent-activity__title {
+    height: 4.8rem;
+    font-size: 1.8rem;
+    text-align: left;
+    color: #fff;
+    padding: 0 3rem;
+    background-color: #1b204a;
+    line-height: 4.8rem;
+    border-radius: 1rem 1rem 0px 0px;
+}
+
+.recentContent {
+    height: 21rem;
+    text-align: left;
+    color: #fff;
+
+    background-color: #161e54;
+    border-radius: 0px 0px 1rem 1rem;
+}
+
+.recent__above{
+    height: 13.7rem;
+}
+
+.recent-activity__note,
+.recent-activity__count,
+.recent-activity__dayTime {
+    color: #fff;
+    padding: 1rem 3rem 1rem 3rem;
+}
+
+.recent-activity__text {
+    color: #fff;
+    padding: 0 3rem 1rem 3rem;
+}
+
+.recent-activity__dayTime{
+    font-size: 1.2rem;
+}
+
+.recent-activity__text{
+    font-size: 2.4rem;
+}
+
+.recent-activity__note{
+    font-size: 1.4rem;
+}
+
+.recent-activity__count{
+    font-size: 1.4rem;
+}
+
+br {
+    display: block; /* makes it have a width */
+    content: ""; /* clears default height */
+    margin-top: 1rem; /* change this to whatever height you want it */
+}
+
+.recent__footer{
+    height: 7.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recent-activity__count,
+.seeAll{
+    height: 3.8rem;
+}
+
+.seeAll{
+    width: 13.9rem;
+    color: #fff;
+    background-color: #ff5151;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-right: 2rem;
+    padding: 0 1rem 0 1rem;
+    border: #ff5151;
+    border-radius: 0.5rem;
+}
+
+.schedule {
+    height: 42.4rem;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border:#e0e0e0;
+    border-style: solid;
+    border-width: thin;
+    margin-top: 20px;
+}
+
+.schedule__above{
+    height: 38.5rem;
+    padding: 0px 2rem;
+}
+
+.schedule__footer{
+    display: flex;
+    height: 3.9rem;
+    font-size: 1.4rem;
+    justify-content: center;
+    align-items: center;
+    border-top: #e0e0e0;
+    border-style: solid none none none ;
+    border-width: thin;
+    color: #ff5151;
+
+
+}
+
+.schedule__title {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.schedule__header{
+    height: 18%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.schedule__title-date{
+    width: 18rem;
+    color: #686868;
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 0.5rem;
+    background-image: url("../img/Frame10.png");
+    background-repeat: no-repeat;
+    background-position: 95%;
+    border: #999;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 0.3rem;
+    margin-right: 0;
+}
+
+.schedule__list {
+    height: 82%;
+    display: grid;
+    grid-row: 33% 66%;
+    gap: 0.5%;
+    list-style: none;
+    padding: 0;
+}
+
+.schedule__list-priority{
+    height: 25%;
+    font-size: 1.4rem;
+    color: #686868;
+}
+
+.schedule__list-other{
+    height: 50%;
+    font-size: 1.4rem;
+    padding: 1rem 0 1rem 0;
+    color: #686868;
+}
+
+.schedule__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fafafa;
+    border: #e0e0e0;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.sidebar__menu-item{
+    align-items: center;
+}
+
+.schedule__item-content{
+    padding: 1rem;
+}
