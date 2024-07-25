@@ -1,9 +1,9 @@
 .main-content{
-    width: 116rem;
+    width: 100%;
     padding: 0 3rem;
 }
 .content{
-    width: 110rem;
+    width: 100%;
 }
 .title{
     width: 100%;
@@ -20,5 +20,7 @@
 .wrapper{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 3rem;
+    flex-grow: 1;
 }

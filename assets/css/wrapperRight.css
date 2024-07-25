@@ -1,6 +1,6 @@
 .wrapper__right{
-    width: 42.7rem;
-    height: 66.5rem;
+    width: auto;
+    height: auto;
     display: flex;
     flex-direction: column;
 }

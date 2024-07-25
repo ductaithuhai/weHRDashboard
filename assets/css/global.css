@@ -12,9 +12,10 @@ html{
 }
 
 body {
+    height: auto;
+    width: 100vw;
     font-family: poppins;
     margin: 0;
     padding: 0;
-    height: 90rem;
     background-color: #ffff;
 }

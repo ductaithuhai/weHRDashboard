@@ -1,6 +1,6 @@
 .sidebar{
     width: 24.2rem;
-    height: 100%;
+    height: auto;
     align-items: center;
     background-color: var(--background);
 }
