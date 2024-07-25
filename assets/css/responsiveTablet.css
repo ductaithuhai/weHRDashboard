@@ -63,14 +63,14 @@
     }
 
     .wrapper{
-        flex-wrap: wrap;
         flex-direction: column;
+        margin: 0 auto;
         gap:3rem;
     }
 
 
     .wrapper__left{
-        max-width: 64rem;
+        max-width: auto;
     }
 
     .card1{
@@ -112,7 +112,7 @@
         color: #EE61CF;
     }
     .wrapper__right{
-        width: 64rem;
+        width: auto;
         height: 31.9rem;
         flex-direction: row;
         justify-content: space-between;

@@ -56,7 +56,7 @@
     }
 
     .wrapper{
-        width: 35rem;
+        width: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -66,14 +66,14 @@
 
 
     .wrapper__left{
+        width: auto;
         height: 120rem;
         flex-direction: column;
         justify-content: center;
-        max-width: 35rem;
     }
 
     .cards {
-        width:35rem;
+        width:auto;
         height: 44rem;
         display: flex;
         flex-direction: column;
@@ -82,7 +82,7 @@
     }
 
     .card {
-        width: 35rem;
+        width: auto;
         height: 14rem;
         flex: 1;
         padding: 2rem;
@@ -133,7 +133,7 @@
 
 
     .stats {
-        width:35rem;
+        width:auto;
         height: 40rem;
         display: flex;
         flex-direction: column;
@@ -142,7 +142,7 @@
     }
 
     .stat {
-        width: 35rem;
+        width: auto;
         flex: 1;
         padding: 2rem;
         background-color: #fff;
@@ -159,7 +159,7 @@
 
     .announcements{
         height: 33.9rem;
-        max-width: 35rem;
+        width: auto;
         display: flex;
         flex-direction: column;
     }
@@ -199,14 +199,14 @@
     }
 
     .wrapper__right{
-        width: 35rem;
+        width: auto;
         flex-direction: column;
         justify-content: space-between;
         gap: 1rem;
     }
 
     .recent-activity {
-        width: 35rem;
+        width: auto;
         height: 31.9rem;
     }
 
@@ -265,7 +265,7 @@
 
     .schedule {
         height: 31.9rem;
-        width: 35rem;
+        width: auto;
         margin: 0;
     }
 
@@ -285,16 +285,19 @@
     }
 
     .schedule__item {
-        width: 31rem;
+        width: auto;
+        max-height: 4rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        flex-shrink: 1 auto;
         background-color: #fafafa;
         border: #e0e0e0;
         border-style: solid;
         border-width: thin;
         border-radius: 0.5rem;
         margin-bottom: 1rem;
+        padding: 1rem;
     }
     
     .schedule__above{

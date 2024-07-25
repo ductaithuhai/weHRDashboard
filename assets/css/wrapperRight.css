@@ -104,7 +104,6 @@ br {
 }
 
 .schedule__above{
-    height: 38.5rem;
     padding: 0px 2rem;
 }
 
@@ -152,21 +151,21 @@ br {
 
 .schedule__list {
     height: 82%;
-    display: grid;
-    grid-row: 33% 66%;
+    display: flex;
+    flex-direction: column;
     gap: 0.5%;
     list-style: none;
     padding: 0;
 }
 
 .schedule__list-priority{
-    height: 25%;
+    text-align: left;
     font-size: 1.4rem;
     color: #686868;
 }
 
 .schedule__list-other{
-    height: 50%;
+    text-align: left;
     font-size: 1.4rem;
     padding: 1rem 0 1rem 0;
     color: #686868;
