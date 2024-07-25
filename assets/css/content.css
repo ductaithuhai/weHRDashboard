@@ -4,6 +4,7 @@
 }
 .content{
     width: 100%;
+    display: flex;
 }
 .title{
     width: 100%;
@@ -21,6 +22,6 @@
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    gap: 3rem;
+    flex:1 auto;
     flex-grow: 1;
 }

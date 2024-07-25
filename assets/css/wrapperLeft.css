@@ -10,13 +10,16 @@
     height: 13.6rem;
     display: flex;
     flex-grow: 1;
+    flex-shrink: 1;
     gap: 2rem;
     margin-bottom: 2rem;
+    flex:1;
 }
 
 .card {
     width: auto;
     flex-grow: 1;
+    flex:1;
     padding: 2rem;
     background-color: #fff;
     border-radius: 1rem;
@@ -68,6 +71,7 @@
     height: 19rem;
     display: flex;
     flex-grow: 1;
+    flex: 1;
     gap: 2rem;
     margin-bottom: 2rem;
 }
